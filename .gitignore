@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Wazuh backups and archives
+*.tar.gz
+*.zip
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Wazuh agent credentials
+client.keys
+
+# Secrets and environment files
+.env
+.env.*
+secrets/
+credentials/
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
